@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Food App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <div class="ingredients" style="position: sticky; top: 10pt; z-index: 2;" >
+       
+        <div class="input">
+            <input class="ingredient-1" type="text" placeholder="your ingredient or food name" id="ingredient-1" value=""><br>
+            <button type="submit" class="btn" id="submit"  >Submit</button>
+        </div>
+        
+    </div>
+    <!-- <div class="container"> -->
+        
+    <div id="list" class="list" style="position: relative;">
+
+        <ul id="ul">
+
+            
+                <li id="li1" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;" ></li>
+                <div class="image"><a href="#/" onclick="javascript:showIngredients_1(), showInstructionsLink_1(), showNutritions_1() " style="text-decoration: none;" class="link-1" id="link-1" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-1"><div class="image_overlay"><div class="image_title">
+
+                    </div><p class="image_description">click for details</p>
+
+                   </div>
+                </div>
+                
+                    </a>
+                        <div id="ingr-title-1" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+                        <div id="ingredients-1"></div><br>
+                        <div id="instr-title-1" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+                        <div id="instructions-1"></div><br>
+                        <div id="nutritions-1" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+                        <div id="calories-1"></div>
+                        <div id="carbs-1"></div>    
+                        <div id="fat-1"></div>
+                        <div id="protein-1"></div>
+                        <div id="sugar-1"></div>
+            </div>
+            <br>
+
+            
+                <li id="li2" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;"></li>
+                <div class="image"><a href="#/" onclick="javascript:showIngredients_2(), showInstructionsLink_2(), showNutritions_2() " style="text-decoration: none;" class="link-2" id="link-2" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-2"><div class="image_overlay"><div class="image_title">
+
+                </div><p class="image_description">click for details</p>
+
+               </div>
+            </div> </a>
+                        <div id="ingr-title-2" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+                        <div id="ingredients-2"></div><br>
+                        <div id="instr-title-2" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+                        <div id="instructions-2"></div><br>
+                        <div id="nutritions-2" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+                        <div id="calories-2"></div>
+                        <div id="carbs-2"></div>
+                        <div id="fat-2"></div>  
+                        <div id="protein-2"></div>
+                        <div id="sugar-2"></div>
+            </div>
+            <br>
+
+            
+            <li id="li3" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;"></li>
+            <div class="image"><a href="#/" onclick="javascript:showIngredients_3(), showInstructionsLink_3(), showNutritions_3() " style="text-decoration: none;" class="link-3" id="link-3" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-3"><div class="image_overlay"><div class="image_title">
+
+            </div><p class="image_description">click for details</p>
+
+           </div>
+        </div> 
+        </a>
+            <div id="ingr-title-3" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="ingredients-3"></div><br>
+            <div id="instr-title-3" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="instructions-3"></div><br>
+            <div id="nutritions-3" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="calories-3"></div>
+            <div id="carbs-3"></div>
+            <div id="fat-3"></div>
+            <div id="protein-3"></div>
+            <div id="sugar-3"></div>
+            </div>
+            <br>
+
+            
+            <li id="li4" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;"></li>
+            <div class="image"><a href="#/" onclick="javascript:showIngredients_4(), showInstructionsLink_4(), showNutritions_4() " style="text-decoration: none;" class="link-4" id="link-4" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-4"><div class="image_overlay"><div class="image_title">
+
+            </div><p class="image_description">click for details</p>
+            </div>
+           
+        </div> </a>
+            <div id="ingr-title-4" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="ingredients-4"></div><br>
+            <div id="instr-title-4" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="instructions-4"></div><br>
+            <div id="nutritions-4" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="calories-4"></div>
+            <div id="carbs-4"></div>
+            <div id="fat-4"></div>
+            <div id="protein-4"></div>
+            <div id="sugar-4"></div>
+            </div>
+            <br>
+
+            
+            <li id="li5" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;"></li>
+            <div class="image"><a href="#/" onclick="javascript:showIngredients_5(), showInstructionsLink_5(), showNutritions_5() " style="text-decoration: none;" class="link-5" id="link-5" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-5"><div class="image_overlay"><div class="image_title">
+
+            </div><p class="image_description">click for details</p>
+
+           </div>
+        </div> </a>
+            <div id="ingr-title-5" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="ingredients-5"></div><br>
+            <div id="instr-title-5" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="instructions-5"></div><br>
+            <div id="nutritions-5" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="calories-5"></div>
+            <div id="carbs-5"></div>
+            <div id="fat-5"></div>
+            <div id="protein-5"></div>
+            <div id="sugar-5"></div>
+            </div>
+            <br>
+
+            
+            <li id="li6" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;"></li>
+            <div class="image"><a href="#/" onclick="javascript:showIngredients_6(), showInstructionsLink_6(), showNutritions_6() " style="text-decoration: none;" class="link-6" id="link-6" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-6"><div class="image_overlay"><div class="image_title">
+
+            </div><p class="image_description">click for details</p>
+</div>
+           
+        </div> </a>
+            <div id="ingr-title-6" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="ingredients-6"></div><br>
+            <div id="instr-title-6" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="instructions-6"></div><br>
+            <div id="nutritions-6" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="calories-6"></div>
+            <div id="carbs-6"></div>
+            <div id="fat-6"></div>
+            <div id="protein-6"></div>
+            <div id="sugar-6"></div>
+            </div>
+            <br>
+
+            
+            <li id="li7" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;"></li>
+            <div class="image"><a href="#/" onclick="javascript:showIngredients_7(), showInstructionsLink_7(), showNutritions_7() " style="text-decoration: none;" class="link-7" id="link-7" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-7"><div class="image_overlay"><div class="image_title">
+
+            </div><p class="image_description">click for details</p>
+</div>
+           
+        </div> </a>
+            <div id="ingr-title-7" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="ingredients-7"></div><br>
+            <div id="instr-title-7" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="instructions-7"></div><br>
+            <div id="nutritions-7" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="calories-7"></div>
+            <div id="carbs-7"></div>
+            <div id="fat-7"></div>
+            <div id="protein-7"></div>
+            <div id="sugar-7"></div>
+            </div>
+            <br>
+
+            
+            <li id="li8" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;"></li>
+            <div class="image"><a href="#/" onclick="javascript:showIngredients_8(), showInstructionsLink_8(), showNutritions_8() " style="text-decoration: none;" class="link-8" id="link-8" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-8"><div class="image_overlay"><div class="image_title">
+
+            </div><p class="image_description">click for details</p>
+</div>
+           
+        </div> </a>
+            <div id="ingr-title-8" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="ingredients-8"></div><br>
+            <div id="instr-title-8" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="instructions-8"></div><br>
+            <div id="nutritions-8" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="calories-8"></div>
+            <div id="carbs-8"></div>
+            <div id="fat-8"></div>
+            <div id="protein-8"></div>
+            <div id="sugar-8"></div>
+            </div>
+            <br>
+
+            
+            <li id="li9" style="font-size: 24pt; color: rgba(222, 6, 6, 0.488); font-family: Sofia, sans-serif;"></li>
+            <div class="image"><a href="#/" onclick="javascript:showIngredients_9(), showInstructionsLink_9(), showNutritions_9() " style="text-decoration: none;" class="link-9" id="link-9" target="_self" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=" class="img-9"><div class="image_overlay"><div class="image_title">
+
+            </div><p class="image_description">click for details</p>
+</div>
+           
+        </div> </a>
+            <div id="ingr-title-9" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="ingredients-9"></div><br>
+            <div id="instr-title-9" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="instructions-9"></div><br>
+            <div id="nutritions-9" style="font-style: italic; font-size: large; font-weight: bold;"></div><br>
+            <div id="calories-9"></div>
+            <div id="carbs-9"></div>
+            <div id="fat-9"></div>
+            <div id="protein-9"></div>
+            <div id="sugar-9"></div>
+            </div>
+            <br>
+        </ul>
+    </div>
+    
+
+</body>
+<script src="script1.js"></script>
+<script src="script2.js"></script>
+<script src="script3.js"></script>
+<script src="script4.js"></script>
+
+<footer class="footer">Food App 2022 by Pawel Wlodarczyk</footer>
+</html>
