@@ -28,6 +28,10 @@
 
   }
   
+  
+
+  
+
 
   .header a:hover {
     background-color: #ddd;
@@ -266,6 +270,15 @@ ul {
       justify-content: space-evenly;
     }
 
+    .link_inner {
+      
+      border: solid .3px #b1781c;
+      box-shadow: none;
+      padding: 5px;
+      margin: 5px;
+      
+    }
+
     section {
         margin: 5px;
         background-color: antiquewhite;
@@ -349,13 +362,11 @@ mark {
   border: 3px solid var(--color-shadow, currentColor);
   box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
   
- 
-  
-  
-  
 }
 
-
+.card-find {
+  margin-bottom: 10px;
+}
 .l-design-widht {
   max-width: 40rem;
   padding: 1rem;
@@ -494,7 +505,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-	background-color: #18a68f;
+	background-color: #958c11;
 }
 
 p.success {
