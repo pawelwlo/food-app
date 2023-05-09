@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <title>Food App</title>
+        <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+  <header>
+    <div class="header">
+        <a href="index.html" class="logo">FoodApp</a>
+        <div class="header-right">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          
+        </div>
+      </div>
+</header>
+<main>
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <p>Have a question or comment about our food app? We'd love to hear from you. Fill out the form below to send us a message and we'll get back to you as soon as possible.</p>
+        <form method="post" action="submit-form.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+</main>
+<div class="back-home" id="back-home">
+  <a href="index.html">back to Home </a>
+</div>
+<footer>
+    <p>© 2023 Food App. All Rights Reserved.</p>
+</footer>
+</html>
